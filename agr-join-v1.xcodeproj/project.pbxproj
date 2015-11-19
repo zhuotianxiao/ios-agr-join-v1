@@ -16,6 +16,7 @@
 		4131CAC11BF6BE48003EE3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4131CABF1BF6BE48003EE3CF /* LaunchScreen.storyboard */; };
 		4131CACC1BF6BE48003EE3CF /* agr_join_v1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4131CACB1BF6BE48003EE3CF /* agr_join_v1Tests.m */; };
 		4131CAD71BF6BE48003EE3CF /* agr_join_v1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4131CAD61BF6BE48003EE3CF /* agr_join_v1UITests.m */; };
+		416EF07C1BFE24420025A1F2 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416EF07B1BFE24420025A1F2 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4131CAD21BF6BE48003EE3CF /* agr-join-v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "agr-join-v1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4131CAD61BF6BE48003EE3CF /* agr_join_v1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = agr_join_v1UITests.m; sourceTree = "<group>"; };
 		4131CAD81BF6BE48003EE3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416EF07A1BFE24420025A1F2 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		416EF07B1BFE24420025A1F2 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				4131CAC21BF6BE48003EE3CF /* Info.plist */,
 				4131CABA1BF6BE48003EE3CF /* agr_join_v1.xcdatamodeld */,
 				4131CAAE1BF6BE48003EE3CF /* Supporting Files */,
+				416EF07A1BFE24420025A1F2 /* ImageViewController.h */,
+				416EF07B1BFE24420025A1F2 /* ImageViewController.m */,
 			);
 			path = "agr-join-v1";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416EF07C1BFE24420025A1F2 /* ImageViewController.m in Sources */,
 				4131CAB61BF6BE48003EE3CF /* ViewController.m in Sources */,
 				4131CAB31BF6BE48003EE3CF /* AppDelegate.m in Sources */,
 				4131CAB01BF6BE48003EE3CF /* main.m in Sources */,
