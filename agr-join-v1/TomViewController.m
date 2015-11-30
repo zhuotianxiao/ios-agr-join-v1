@@ -70,6 +70,7 @@
 -(void)clearData {
     
     _imageView.animationImages = nil;
+  
 }
 
 /*
